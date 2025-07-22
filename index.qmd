@@ -8,4 +8,4 @@ This is my first quarto document for a web page
 
 Here you can see my first [HTML](QuartoSummerSchool.html) document created with quarto 
 
-Here you can find some information regarding Antimicrobial stewardship [HTML](ASP.html)
+Here you can find some information regarding Antimicrobial stewardship program [HTML](ASP.html)
