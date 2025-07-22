@@ -62,5 +62,5 @@ ASP interventions can be classified as core strategies (i.e., pre-authorization 
       c. From empiric to target therapy, based on culture results and antibiotic monitoring by pharmacist
       d. Switch to oral
       
-![The different Types of ASP](images/ASPTeam.png)
+![The different Types of ASP](images/ASP.png)
  
