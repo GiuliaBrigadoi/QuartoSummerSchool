@@ -43,15 +43,24 @@ ASP interventions can be classified as core strategies (i.e., pre-authorization 
       a. Pre-authorization of restricted antimicrobials
       
     + **Minor Strategies**
-    
       a. Local syndrome-specific clinical guidelines and pathways implementation
-       b. Healthcare worker education
-       c. Computerized clinical decision support (CDS)
-       d. Caregivers education
-       e. Guidelines for antibiotic allergy and delabeling of spurious antibiotic allergies
-       f. Antimicrobial order form
-      
-      
+      b. Healthcare worker education
+      c. Computerized clinical decision support (CDS)
+      d. Caregivers education
+      e. Guidelines for antibiotic allergy and delabeling of spurious antibiotic allergies
+      f. Antimicrobial order form
+       
+ - **What Interventions Are Effective After the Time of Prescription?**
+  
+    + **Core Strategy**
+    
+      a. Prospective audits and feedback (PAF):    
+  
+    + **Minor Strategies**
+      a. Dose optimization
+      b. Appropriate duration and antibiotic timing out
+      c. From empiric to target therapy, based on culture results and antibiotic monitoring by pharmacist
+      d. Switch to oral
       
 ![The different Types of ASP](images/ASPTeam.png)
  
