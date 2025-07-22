@@ -12,6 +12,7 @@ format:
     fontsize: 20px
 lang: en
 bibliography: references.bib
+citation-location: margin
 ---
 
 # *ANTIMICROBIAL STEWARDSHIP PROGRAMS*

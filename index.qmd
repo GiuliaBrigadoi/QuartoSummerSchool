@@ -1,11 +1,100 @@
 ---
 title: "My first webpage"
-format: html
+format: 
+  html: 
+   toc: true
+   toc-location: left
+   grid:
+    sidebar-width: 300px
+    body-width: 900px
+    margin-width: 300px
+    gutter-width: 1.5rem
 ---
-# Ta-dan
+
 
 This is my first quarto document for a web page
 
-Here you can see my first [HTML](QuartoSummerSchool.html) document created with quarto 
 
-Here you can find some information regarding Antimicrobial stewardship programs [HTML](ASP.html)
+::: {.grid}
+
+::: {.g-col-4}
+
+**Antimicrobial resistance: a global threat**
+
+![AMR, a global threat](images/AMR.png)
+
+*Here you can find some information regarding AMR*
+[HTML](QuartoSummerSchool.html)
+
+:::
+
+::: {.g-col-4}
+
+**Antibiotic Stewardship Programs: a possible solution**
+
+![Antibiotic Stewardship Program](images/ASP2.jpg)
+
+*Here you can find some information regarding ASP in children*
+[HTML](ASP.html)
+
+:::
+
+::: {.g-col-4}
+
+**Diagnostic Stewardship Programs: a new era?**
+
+![Diagnostic Stewardship Program](images/DSP.png)
+
+:::
+
+:::
+
+
+::: {.panel-tabset}
+
+***WHICH IS THE IMPACT OF AMR WORLWIDE?"
+
+## in the World
+
+AMR is a global health threat with affect both low and middle income countries and high income countries
+
+## Children
+
+The impact of AMR in children is high, especially considering that new antibiotics, effective against multidrug-resistant organisms (MDROs) are not available for pediatric population.
+
+## Adults and elderly
+The burden of AMR on adults and elderly is important; MDROs represent the most common pathogens responsible of Healthcare associated infection.
+
+:::
+
+::: {.callout-note collapse="true"}
+AMR is considered by WHO as one of the ten global threat
+:::
+
+
+:::{.column-margin}
+The most dangerous antibiotic resistant bacteria
+
+
+![](images/MDRO.jpg)
+:::
+
+
+::: {.callout-tip collapse="true"}
+## Antrimicrobial Stewardship Program
+
+ASP may represent a tool to fight against AMR
+:::
+
+::: {.callout-caution collapse="true"}
+## Antibiotic overprescription
+
+Antibiotics are widely prescriped, in many cases for viral infections, especially in children
+:::
+
+
+::: {.callout-warning collapse="true"}
+## Misuse of antibiotics and antibiotic-resistance
+
+The misuse and overuse of antibiotics led to an increase in antibiotic resistance
+:::
