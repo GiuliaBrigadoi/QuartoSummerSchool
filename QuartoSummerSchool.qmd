@@ -11,7 +11,8 @@ format:
       light: minty
       dark: superhero
     fontsize: 20px
-lang: it
+lang: en
+bibliography: references.bib
 ---
 
 # **The fight against Antimicrobial resistance**

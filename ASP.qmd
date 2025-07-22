@@ -1,0 +1,57 @@
+---
+title: "Antimicrobial Stewardship Programs"
+format: 
+  html:
+    self-contained: true
+    toc: true
+    toc-title: "My contents"
+    toc-location: left
+    theme: 
+      light: minty
+      dark: superhero
+    fontsize: 20px
+lang: en
+bibliography: references.bib
+---
+
+# *ANTIMICROBIAL STEWARDSHIP PROGRAMS*
+
+Antimicrobial stewardship programs (ASPs) have become a cornerstone in the fight against antimicrobial resistance (AMR), a critical public health issue also recognized globally in the pediatric population. @dona2025state
+
+Successful implementation of pediatric ASPs requires a multidisciplinary approach, not only via collaboration between different healthcare workers but also by engaging with patients and their families through education in order to reduce unnecessary antibiotics use and increase compliance
+
+## 1.***What Is an Antibiotic Stewardship Program (ASP)?***
+
+An ASP is a comprehensive set of actions designed to promote the responsible use of antibiotics [16,17]. This involves selecting the appropriate drug, dose, timing, frequency, and route of administration based on knowledge of the antimicrobial spectrum and pharmacokinetic/pharmacodynamic data, ideally tailored to the specific clinical condition, limiting the risk of resistance development and the risk of side effects, without compromising the patient outcome. @dellit2007infectious
+
+## 2.***Which Healthcare Workers Should Be Involved in an ASP? The Antimicrobial Stewardship Team***
+
+Every ASP requires a multidisciplinary team tasked with defining governmental policies for the responsible use of antibiotics, aligning with infection control protocols 
+  i) **Pediatric infectious disease specialist**: the Antimicrobial Stewardship Team (AST) in pediatric care should be led by a pediatric infectious disease specialist or, when absent, by a pediatrician with expertise in antibiotic therapy
+  ii) **One expert from each relevant field**: a nurse, a clinical pharmacist, a clinical microbiologist, a public health specialist, dietitians, and other physicians, depending on the wards involved in the implementation.
+  
+![The ASP Team](images/ASPTeam.png)
+
+## 3.***Different Types of ASPs***
+
+ASP interventions can be classified as core strategies (i.e., pre-authorization of restricted antimicrobials and prospective audit and feedback), minor interventions, or interventions before and after the prescriptions. @dona2020implementation
+
+  - **What Interventions Are Effective Prior to or at the Time of Prescription?**
+  
+    + **Core Strategy**
+    
+      a. Pre-authorization of restricted antimicrobials
+      
+    + **Minor Strategies**
+    
+      a. Local syndrome-specific clinical guidelines and pathways implementation
+      b. Healthcare worker education
+      c. Computerized clinical decision support (CDS)
+      d. Caregivers education
+      e. Guidelines for antibiotic allergy and delabeling of spurious antibiotic allergies
+      f. Antimicrobial order form
+      
+      
+      
+![The different Types of ASP](images/ASPTeam.png)
+ 
