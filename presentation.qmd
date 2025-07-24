@@ -1,7 +1,9 @@
 ---
 title: "Antimicrobial Stewardship Program in pediatric settings"
-author: GB
-format: revealjs
+author: Giulia
+format: 
+  revealjs:
+    self-contained: true
 ---
 
 # Antimicrobial stewardship programs in pediatric emergency department
