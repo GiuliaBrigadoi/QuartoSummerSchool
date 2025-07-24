@@ -1,5 +1,5 @@
 ---
-title: "PhD"
+title: "Antimicrobial Stewardship Program in pediatric settings"
 author: GB
 format: revealjs
 ---
@@ -23,6 +23,14 @@ We collected data of more than 500 children evaluated in pediatric emergency dep
 ## Conclusions
 
 Our study showed that the implementation of CP for the management of the most common pediatric infectious diseases improved antibiotic prescription.
+
+# Antimicrobial stewardship programs in pediatric acute care unit
+
+# Antimicrobial stewardship programs in intensive care unit
+
+# Antimicrobial stewardship programs in the outpatient setting
+
+
 
 ```{r}
 1 + 1
