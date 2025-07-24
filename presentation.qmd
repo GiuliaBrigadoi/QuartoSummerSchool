@@ -34,8 +34,4 @@ Our study showed that the implementation of CP for the management of the most co
 
 
 
-```{r}
-1 + 1
-```
-
 
