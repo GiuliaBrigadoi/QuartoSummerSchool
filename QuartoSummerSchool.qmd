@@ -21,6 +21,16 @@ bibliography: references.bib
 
 Antimicrobial resistance (AMR) occurs when pathogens like bacteria, viruses, fungi, or parasites evolve to resist the effects of antimicrobials that were previously effective in treating or preventing infections^1,2^.
 
+```{r}
+#| out-width: 80%
+#| fig-align: center
+#| fig-cap: AMR mortality worldwide (2024)
+#| fig-cap-location: bottom
+#| label: fig-AMRmortality
+#| echo: false
+knitr::include_graphics("images/AMR_mortality.jpg")
+```
+
 ### *Bacterial AMR*
 
 ESKAPE is an acronym comprising the scientific names of six highly virulent and antibiotic resistant bacterial pathogens including: *Escherichia coli*, *Staphylococcus aureus*, *Klebsiella pneumoniae*, *Acinetobacter baumannii*, *Pseudomonas aeruginosa*, and *Enterococcus faecium*, *Enterococcus faecium*
@@ -40,5 +50,7 @@ Bacterial AMR is considered as one of the tenth global health threat, as reporte
 Fungal AMR is considered one of the ten priorities in the global research agenda 2024 published by WHO^1,2^
 
 AMR Global Research Agenda <https://www.who.int/publications/b/75815>
+
+
 
 

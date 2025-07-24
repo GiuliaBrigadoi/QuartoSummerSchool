@@ -1,0 +1,240 @@
+---
+title: "Other"
+format: 
+  html:
+    self-contained: true
+    toc: true
+    toc-title: "My contents"
+    toc-location: left
+    theme: 
+      light: minty
+      dark: superhero
+    fontsize: 20px
+lang: en
+bibliography: references.bib
+citation-location: margin
+code-annotations: hover
+---
+
+```{r}
+#| include: false
+library(readr)
+library(ggplot2)
+#install.packages("DT")
+library(DT)
+data <- read_csv("Data/dataset.csv")
+```
+
+
+```{r}
+#| code-fold: true
+#| code-summary: see this specific code
+#| echo: false
+head(data)
+```
+
+```{r}
+#| code-fold: true
+#| code-summary: see this specific code
+#| echo: true
+head(data)
+```
+
+```{r}
+#| code-fold: true
+#| code-summary: see this specific code
+#| echo: fenced
+head(data)
+```
+
+```{r}
+#| code-fold: true
+#| code-summary: see this specific code
+#| echo: fenced
+str(data)
+```
+
+
+```{r}
+#| code-fold: true
+#| code-summary: see this specific code
+#| echo: true
+summary(data)
+```
+
+```{r}
+#| code-fold: true
+#| code-summary: see this specific code
+#| echo: fenced
+summary(data)
+```
+
+Table of the data for anxiety and flexibility
+
+@tbl-chap illustrates the characteristics of the population of interest
+```{r}
+#| label: tbl-chap
+#| tbl-cap: "Characteristics of population"
+#| lst-label: lst-table1
+#| lst-cap: Basic use of the kable() function
+knitr::kable(head(data))
+```
+
+@lst-table1 illustrates a basic use of the kable() function
+
+Correlation between anxiety and flexibility stratified based on mindfulness
+
+@lst-plot1 illustrates a basic use of the function plot()
+
+```{r}
+#| message: false
+#| error: false
+#| warning: false
+#| code-fold: true
+#| code-summary: see this specific code
+#| out-width: 50%                                
+#| fig-align: center                             
+#| fig-cap: Correlation between anxiety and flexibility stratified based on mindfulness
+#| fig-cap-location: margin
+#| label: fig-plot1
+#| lst-label: lst-plot1
+#| lst-cap: Basic use of the plot() function
+ggplot(data,
+       aes(x=flexibility, y=anxiety, color=mindfulness)) +
+  geom_point()
+```
+
+
+
+Figure and table
+```{r}
+#| echo: false
+#| fig-column: margin
+
+ggplot(data,
+       aes(x=flexibility, y=anxiety, color=mindfulness)) +
+  geom_point()+
+  geom_smooth(formula = y ~ x, method = "loess") +
+  theme(legend.position = 'bottom')
+
+datatable(data, options = list(pageLength = 5))
+```
+
+
+```{r}
+#| eval: true
+
+ggplot(mtcars, 
+       aes(hp, mpg, color = factor(am))) +
+  geom_point() +
+  geom_smooth(formula = y ~ x, method = "loess") +
+  theme(legend.position = 'bottom')
+```
+
+
+```{r}
+#| eval: true
+
+datatable(mtcars,
+  options = list(pageLength = 5))
+```
+
+
+```{r}
+#| fig-column: margin
+
+knitr::kable(head(mtcars))
+
+ggplot(mtcars, 
+       aes(hp, mpg, color = factor(am))) +
+  geom_point() +
+  geom_smooth(formula = y ~ x, method = "loess") +
+  theme(legend.position = 'bottom')
+```
+
+
+
+
+Multiple plots
+@fig-plotsModels illustrates different things. @fig-plotsModels-1 illustrates the correlation between anxiety and flexibility, @fig-plotsModels-2 illustrates the polynomial regression model, @fig-plotsModels-3 the Linear regression model, @fig-plotsModels-4 the GLM with Poisson
+
+```{r}
+#| label: fig-plotsModels
+#| column: screen-inset-shaded
+#| warning: false
+#| echo: false
+#| layout-nrow: 2
+#| layout-ncol: 2
+#| fig-cap: "One dataset, different models" 
+#| fig-subcap:
+#|   - "The data"
+#|   - "Polynomial"
+#|   - "Linear Model"
+#|   - "GLM with Poisson" 
+#| out-width: 15cm
+#| fig-align: center
+
+
+ggplot(data,
+       aes(anxiety, flexibility, size = activity)) +
+  geom_point()
+
+ggplot(data,
+       aes(anxiety, flexibility, size = activity)) +
+  geom_point() + 
+  geom_smooth()
+
+ggplot(data,
+       aes(anxiety, flexibility, size = activity)) +
+  geom_point() + 
+  geom_smooth(method = "lm")
+
+ggplot(data,
+      aes(anxiety, flexibility, size = activity)) +
+  geom_point() + 
+  geom_smooth(method = "glm", method.args = list(family = "poisson"))
+
+
+```
+
+@tbl-tables presents two datasets: @tbl-tables-1 is cars and @tbl-tables-2 is pressure
+
+```{r}
+#| label: tbl-tables
+#| tbl-cap: "Datasets"
+#| warning: false
+#| echo: false
+#| tbl-subcap: 
+#|   - "Cars"
+#|   - "Pressure"
+#| layout-ncol: 2
+
+knitr::kable(head(cars))
+
+knitr::kable(head(pressure))
+```
+
+
+#Annotation
+
+```{r}
+#| echo: true
+mtcars %>%                               # <1>
+  ggplot( aes(mpg, hp, size = gear)) +   # <2>
+  geom_point() +                         # <3>    
+  geom_smooth(method = "lm")             # <4>
+```
+
+1. This does that
+2. This other thing is this
+3. And look at this!
+4. Please have mercy
+
+The mean of the gear variable in mtcars is `mean(mtcars$gear)`
+
+The mean of the gear variable in mtcars is `r mean(mtcars$gear)`
+
+
+
+
+

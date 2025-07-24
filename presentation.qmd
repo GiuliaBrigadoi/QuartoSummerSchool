@@ -1,0 +1,31 @@
+---
+title: "PhD"
+author: GB
+format: revealjs
+---
+
+# Antimicrobial stewardship programs in pediatric emergency department
+
+## Introduction
+
+ASP programs are a comprehensive set of tools to improve antibiotic prescription
+
+## Material and methods
+
+This is a before and after study conducted at Pediatric Emergency Department at the Department of Women's and Children's Health at Padua University Hospital
+
+Clinical pathways for the management of acute otitis media, pharyngitis and community acquired pneumonia were implemented in October 2015.
+
+## Results
+
+We collected data of more than 500 children evaluated in pediatric emergency department between October 2014 and September 2016
+
+## Conclusions
+
+Our study showed that the implementation of CP for the management of the most common pediatric infectious diseases improved antibiotic prescription.
+
+```{r}
+1 + 1
+```
+
+
