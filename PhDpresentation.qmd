@@ -2,6 +2,7 @@
 title: "PhD presentation"
 format: 
   beamer:
+    toc: false
     slide-level: 2
     theme: Szeged
     colortheme: beaver
@@ -12,7 +13,7 @@ format:
 # Antimicrobial Stewardship Program in pediatric settings 
 
 
-## \Large Large ASP in Pediatric Emergency Departments
+## \Large ASP in Pediatric Emergency Departments
 
 :::: {.columns}
 
