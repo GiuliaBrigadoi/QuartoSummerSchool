@@ -1,0 +1,77 @@
+---
+title: "PhD presentation"
+format: 
+  beamer:
+    slide-level: 2
+    theme: Szeged
+    colortheme: beaver
+    footer: "PhD"
+---
+
+
+# Antimicrobial Stewardship Program in pediatric settings 
+
+
+## \Large ASP in Pediatric Emergency Departments
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Acute Otitis Media
+
+![Change in antibiotic prescription in acute otitis media](images/aom.png)
+
+:::
+
+::: {.column width="50%"}
+Acute pharyngitis
+
+![Change in antibiotic prescription in acute pharyngitis](images/phar.png)
+:::
+
+::::
+
+## ASP in Pediatric Intensive Care Units
+
+Two periods:
+
+:::: {.columns}
+
+::: {.column width="50%"}
+Implementation of Spectrum App
+
+@fig-firstline presents the app developed
+
+```{r}
+#| out-width: 50%
+#| fig-align: center
+#| fig-cap: Firstline app
+#| fig-cap-location: bottom
+#| label: fig-firstline
+knitr::include_graphics("images/firstline.png")
+```
+
+:::
+
+::: {.column width="50%"}
+Hand shake stewardship
+
+@fig-handshake presents the new approach to ASP in critical care setting
+
+```{r}
+#| out-width: 50%
+#| fig-align: center
+#| fig-cap: Handshake
+#| fig-cap-location: bottom
+#| label: fig-handshake
+knitr::include_graphics("images/handshake.jpg")
+```
+
+:::
+
+::::
+
+
+## Conclusions
+
+Different types of ASP have been succesfully implemented in pediatric settings

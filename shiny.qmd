@@ -1,0 +1,60 @@
+---
+title: "shiny"
+format: 
+  revealjs:
+    theme: dark
+server: shiny
+---
+
+## Quarto
+
+
+```{r}
+#| panel: sidebar
+#| eval: false
+selectInput(inputId = "dataset", # name of the input (for the server)
+                  label = "Choose a dataset:", # name of the input (for the users)
+                  choices = c("rock", "pressure", "cars")) # options (for  both 
+                                                          # users & server)
+```
+
+```{r}
+#| panel: fill
+#| eval: false
+#| out-width: 30%
+#| fig-align: center
+plotOutput("graph" )
+verbatimTextOutput("summary")
+
+```
+
+
+```{r}
+#| eval: false
+#| context: server
+
+output$graph <- renderPlot({
+    if(input$dataset == "rock"){ # call the input and its options with their label
+      data <- rock
+    } else if (input$dataset == "pressure" ){
+      data <- pressure
+    } else if (input$dataset == "cars") {
+      data <- cars
+    }
+    plot(data[, c(1:2)])
+  })
+
+output$summary <- renderPrint({
+    if(input$dataset == "rock"){
+      data <- rock
+    } else if (input$dataset == "pressure" ){
+      data <- pressure
+    } else if (input$dataset == "cars") {
+      data <- cars
+    }
+    summary(data[, c(1:2)])
+  })
+
+```
+
+

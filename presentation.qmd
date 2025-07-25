@@ -1,9 +1,18 @@
 ---
 title: "Antimicrobial Stewardship Program in pediatric settings"
-author: Giulia
+author: 
+  name: "Giulia"
+  affiliation: "Department of Women's and Children's Health"
 format: 
   revealjs:
+    theme: [sky, mytheme.scss]
     self-contained: true
+    incremental: true
+    scrollable: true
+    logo: https://gendertime.org/sites/default/files/unipd-logo.png
+    footer: "PhD"
+    slide-number: c/t
+    show-slide-number: all
 ---
 
 # Antimicrobial stewardship programs in pediatric emergency department
@@ -12,19 +21,109 @@ format:
 
 ASP programs are a comprehensive set of tools to improve antibiotic prescription
 
-## Material and methods
+## AMR around the world
 
-This is a before and after study conducted at Pediatric Emergency Department at the Department of Women's and Children's Health at Padua University Hospital
+![](images/AMR.png){.absolute top=200 left=0 width="450" height="300"}
 
+![](images/AMR_mortality.jpg){.absolute top=5 right=25 width="450" height="250"}
+
+![](images/MDRO.jpg){.absolute bottom=100 right=100 width="400" height="250"}
+
+## AMR around the world
+
+:::{.r-stack}
+![](images/AMR.png){.fragment width="450" height="300"}
+
+![](images/AMR_mortality.jpg){.fragment width="450" height="250"}
+
+![](images/MDRO.jpg){.fragment width="400" height="250"}
+
+:::
+
+## AMR
+
+::: {.fragment .highlight-blue}
+
+The childhood mortality decreased in the past 20 years
+
+:::
+
+
+:::{.r-stack}
+::: {.fragment .fade-in-then-out}
+![](images/AMR_mortality.jpg){width="350" height="300"}
+:::
+
+::: {.fragment .fade-in-then-out}
+![](images/AMR.png){width="450" height="250"}
+:::
+
+
+::: {.fragment .fade-in-then-out}
+![](images/MDRO.jpg){width="300" height="150"}
+:::
+:::
+
+
+
+
+
+
+## Material and methods {.smaller}
+
+:::{.columns}
+
+::: {.column width="50%"}
+
+Study design
+This is a before and after study conducted at Pediatric Emergency Department at the Department of Women's and Children's Health at Padua University Hospital.
+
+::: 
+
+:::{.column width="50%"}
+
+Intervention
 Clinical pathways for the management of acute otitis media, pharyngitis and community acquired pneumonia were implemented in October 2015.
 
-## Results
+:::
+
+:::
+
+## Results 
+
+::: footer
+
+:::
+
+::: {.panel-tabset}
+
+## Demographic characteristics
 
 We collected data of more than 500 children evaluated in pediatric emergency department between October 2014 and September 2016
 
+No differences in demographics characteristics where observed between the groups
+
+## Antibiotic prescriptions
+
+Amoxicillin-clavulanic acid reduced whereas amoxicillin prescription increase
+
+The use of second and third generation cephalosporins decreased in the post implementation period
+
+## Treatment Failure
+
+No difference in the treatment failure between the two groups was observed at the follow-up phone
+
+:::
+
 ## Conclusions
 
-Our study showed that the implementation of CP for the management of the most common pediatric infectious diseases improved antibiotic prescription.
+Our study showed that the implementation of CP for the management of the most common pediatric infectious diseases improved antibiotic prescription, without affecting patients outcome
+
+::: {.notes}
+
+You can use the speaker notes to help you "survive" the presentation!
+
+:::
 
 # Antimicrobial stewardship programs in pediatric acute care unit
 
@@ -32,6 +131,55 @@ Our study showed that the implementation of CP for the management of the most co
 
 # Antimicrobial stewardship programs in the outpatient setting
 
+## Draft 1 {auto-animate="true"}
+Code highlight of the 2 and 3 lines
 
+```{r}
+#| include: false
+library(ggplot2)
+library(tidyverse)
+library(shiny)
+```
+
+```{r}
+#| fig-align: center
+#| echo: true
+#| output-location: fragment
+#| code-line-numbers: "|2,3|"
+
+mtcars %>%                               
+  ggplot( aes(mpg, hp)) +   
+  geom_point()       
+```
+
+## Draft 2 ## {auto-animate="true"}
+
+```{r}
+#| echo: true
+mtcars %>%                               
+  ggplot( aes(mpg, hp, color = gear)) +   
+  geom_point() + 
+  geom_smooth(method = "lm")
+```
+
+
+## Draft 3
+Output location in next slide:
+
+```{r}
+#| fig-align: center
+#| output-location: slide
+#| code-line-numbers: "|2,3|"
+
+mtcars %>%                               
+  ggplot( aes(mpg, hp, color = gear)) +   
+  geom_point() + 
+  geom_smooth(method = "lm")
+```
+
+## Draft 4
+
+
+## Draft 5
 
 
