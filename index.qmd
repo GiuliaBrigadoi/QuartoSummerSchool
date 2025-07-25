@@ -44,8 +44,6 @@ This is my first quarto document for a web page
 *Here you can find some information regarding the study on ASP in Pediatric Emergency Department at our University Hospital*
 [HTML](presentation.html)
 
-*Here you can find my PhD presentation* [PDF](PhDpresentation.pdf)
-
 :::
 
 ::: {.g-col-4}
