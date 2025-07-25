@@ -12,7 +12,7 @@ format:
 # Antimicrobial Stewardship Program in pediatric settings 
 
 
-## \Large ASP in Pediatric Emergency Departments
+## \Large Large ASP in Pediatric Emergency Departments
 
 :::: {.columns}
 
